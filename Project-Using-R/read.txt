@@ -1,0 +1,8 @@
+Initially we have to extract the required data from dataset . In our case we will extract reviewer ID , product ID / asin and overall rating from the sample dataset of amazon using R programming . This extracted data was required to make bipartite weighted graph(using users as node with edge when they both have rated the same product) with edge weight equals to similarity value(higher the value higher will be the similarty between users) .
+
+TASK-1:
+If user1 has rated the product1 and user2 has rated the product1 implies both users are of similar interest .
+
+TASK-2:
+If user1 has rated the product1 ,product2 and product3 and user2 also has rated the product1,product2 but not product3 implies both users are of similar interest and we will recommend the product3 to user2.
+
